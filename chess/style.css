@@ -21,13 +21,15 @@
      margin-left:10%;
      margin-right:10%;}
 
-  .white{    
+  .white{
+    text-align:center;    
      border: 1px solid black;
      width: 10%;
      height: 60px;
      background-color:white;
      float:left;}
   .black{
+    text-align:center;
      border: 1px solid black;
      width: 10%;
      height: 60px;
