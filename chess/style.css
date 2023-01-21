@@ -46,6 +46,7 @@
     background-color:#D38B2C;
     margin: -10px;}
   #container {
+    width:100%;
     text-align:center;
     margin-top:20%;
     margin-left:10%;
