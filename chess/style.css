@@ -37,3 +37,15 @@
 
   #clear{
     clear:both;}
+
+  #footer {
+    text-align:center;
+    border:solid 1px;
+    padding: 10px;
+    background-color:orange;
+    margin:10px;}
+  #container {
+    margin-top:20%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;}
