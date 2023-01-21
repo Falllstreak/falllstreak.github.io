@@ -1,6 +1,5 @@
   	body {
-    background-image:url("https://img5.goodfon.com/original/1920x1080/6/84/les-derevia-osen-digital-painting.jpg");
-		padding: 0 15% 0 15%;}
+    background-image:url("https://img5.goodfon.com/original/1920x1080/6/84/les-derevia-osen-digital-painting.jpg");}
   	
     #title {
    		  position:fixed;
@@ -14,7 +13,7 @@
     		text-align:center; 
     		z-index:1;
     		font-family: 'DehutiAltItalic'; 
-    		font-weight: bold; 
+    		font-weight: normal; 
     		font-style: normal; 
     		font-size:50px;}
    .row{
@@ -22,8 +21,7 @@
      margin-left:10%;
      margin-right:10%;}
 
-  .white{
-    
+  .white{    
      border: 1px solid black;
      width: 10%;
      height: 60px;
@@ -43,8 +41,8 @@
     text-align:center;
     border:solid 1px;
     padding: 10px;
-    background-color:orange;
-    margin:10px;}
+    width: 100%;
+    background-color:orange;}
   #container {
     text-align:center;
     margin-top:20%;
