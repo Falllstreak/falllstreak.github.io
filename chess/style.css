@@ -6,12 +6,11 @@
     		top:0px;
     		left:0px; 
     		padding:10px;
-    		margin-top: 10px;
-        margin-bottom: 10px;
+    		margin:auto;
     		width:100%;
     		background-color:#D38B2C;
     		text-align:center; 
-    		z-index:2;
+    		z-index:1;
     		font-family: 'DehutiAltItalic'; 
     		font-weight: normal; 
     		font-style: normal; 
