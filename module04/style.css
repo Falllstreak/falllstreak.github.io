@@ -13,7 +13,7 @@ body {
 #content {
 	overflow: auto;}
 #nav {
-        background-color: #FCB992;
+        background-color: #F37F5A;
         margin: 1%;
         padding: 0.5em 0;
         overflow: auto;}
@@ -48,7 +48,7 @@ body {
         margin-right: 0%;
         background-color: #A28D7C;}
 a {
-        color: #28190C;}
+        color: #FEF1E9;}
 li {
         color: #28190C;
 	display: inline;
