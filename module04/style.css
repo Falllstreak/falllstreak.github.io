@@ -1,27 +1,67 @@
       * {
 				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
 				text-align: center;}
+
+      h1 {
+        color: #020100;
+        font-family: 'DecovarRegular24TermB';
+        font-weight: normal;
+        font-style: normal;}
+
 			body {
+			  background-image:url("https://i.pinimg.com/736x/88/8f/52/888f52a1ec0d3e01b06fd7adb1260429.jpg");
 				width: 90%;
 				margin: 0 auto;}
+
 			#content {
 				overflow: auto;}
-			#nav, #feature, #footer {
+
+      #nav {
+        background-color: #FCB992;
+        margin: 1%;
+        padding: 0.5em 0;
+        overflow: auto;}
+
+      #feature {
+        background-color: #F4BC53;
+        background-image:     url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
+       background-size:contain;
+       background-position: right;
+       background-repeat:no-repeat;
+        height: 10em;
+				margin-bottom: 1em;
+        margin: 1%;}
+
+      #footer {
+        color: #FEF1E9;
+        background-color: #2A3B4F;
+        padding: 0.5em 0;
 				margin: 1%;}
-			.column1, .column2, .column3 {
+
+      .column1 {
+        background-color: #90B5AF;
+  			width: 31.3%;
+				float: left;
+        margin: 1%}
+
+      .column2 {
+        background-color: #C1908D;
+  			width: 31.3%;
+				float: left;
+        margin: 1%}
+
+      .column3 {
 				width: 31.3%;
 				float: left;
-				margin: 1%;}
-			.column3 {
-				margin-right: 0%;}
+				margin: 1%;
+        margin-right: 0%;
+        background-color: #A28D7C;}
+
 			li {
+        color: #28190C;
 				display: inline;
 				padding: 0.5em;}
-			#nav, #footer {
-				background-color: #efefef;
-				padding: 0.5em 0;}
-			#feature, .article {
+
+			.article {
 				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;}
+				margin-bottom: 1em;}
