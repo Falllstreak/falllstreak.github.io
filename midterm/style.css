@@ -17,6 +17,10 @@ body {
         margin: 1%;
         padding: 0.5em 0;
         overflow: auto;}
+form {
+  background-color: #F3EEC3;
+  opacity: .9
+}
 #feature {
 	background-color: #F4BC53;
         background-image:     url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
