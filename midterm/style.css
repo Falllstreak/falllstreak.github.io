@@ -22,6 +22,8 @@ form {
   opacity: .9;
 }
 #feature {
+	color: white;
+	text-shadow: 1px 2px 4px #000000;
 	background-color: #F4BC53;
         background-image:     url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
 	background-size:contain;
