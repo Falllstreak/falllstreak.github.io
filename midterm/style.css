@@ -1,0 +1,58 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;}
+h1 {
+        color: #020100;
+        font-family: 'DecovarRegular24TermB';
+        font-weight: normal;
+        font-style: normal;}
+body {
+	background-image:url("https://static.vecteezy.com/system/resources/previews/006/648/531/original/seamless-abstract-random-pattern-background-of-tech-geo-markings-future-retro-style-vector.jpg");
+	width: 90%;
+	margin: 0 auto;}
+#content {
+	overflow: auto;}
+#nav {
+        background-color: #F37F5A;
+        margin: 1%;
+        padding: 0.5em 0;
+        overflow: auto;}
+#feature {
+	background-color: #F4BC53;
+        background-image:     url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
+	background-size:contain;
+	background-position: right;
+	background-repeat:no-repeat;
+        height: 10em;
+	margin-bottom: 1em;
+        margin: 1%;}
+#footer {
+        color: #FEF1E9;
+        background-color: #2A3B4F;
+        padding: 0.5em 0;
+	margin: 1%;}
+.column1 {
+        background-color: #90B5AF;
+  	width: 31.3%;
+	float: left;
+        margin: 1%}
+.column2 {
+        background-color: #C1908D;
+  	width: 31.3%;
+	float: left;
+        margin: 1%}
+.column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+        margin-right: 0%;
+        background-color: #A28D7C;}
+a {
+        color: #FEF1E9;}
+li {
+        color: #28190C;
+	display: inline;
+	padding: 0.5em;}
+.article {
+	height: 10em;
+	margin-bottom: 1em;}
