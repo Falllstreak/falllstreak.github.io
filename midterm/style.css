@@ -62,3 +62,33 @@ li {
 .article {
 	height: 10em;
 	margin-bottom: 1em;}
+.layout {
+  background-color: #8eb8fa;
+  border-style: solid;
+  height: 2000px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+
+.httpval {
+  border-style: solid;
+  background-color: #fcf4c2;
+  float: left;
+  width: 45%;
+  margin: 1%;;
+  padding: 10px;
+}
+
+.cssval {
+  border-style: solid;
+  border-color: black;
+  background-color: #f4c2fc;
+  width: 45%;
+  float: right;
+  	margin: 1%;
+  padding: 10px;
+}
