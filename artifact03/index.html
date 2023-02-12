@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
-    <meta name="Rhombus Creator" content="BC - Rhombus" />
-    <meta charset="utf-8" />
+    <meta name="Rhombus Creator" content="BC - Rhombus">
+    <meta charset="utf-8">
     <title>Rhombus Creator</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://falllstreak.github.io/artifact03/style.css">
   </head>
   <body>
     <h1>Rhombus Creator</h1>
-    <h3>Edwin Pacheco</h3>
-    <label>What is the size of Rhombus?</label><br />
-    <input type="text" id="rHeight" value="5" size="5" />
-    <br />
-    <label>Choose color for Even position</label><br />
+    <h2>Edwin Pacheco</h2>
+    <label>What is the size of Rhombus?</label><br>
+    <input type="text" id="rHeight" value="5" size="5">
+    <br>
+    <label>Choose color for Even position</label><br>
     <select id="colorEven">
       <option value="#FF9900">Orange</option>
       <option value="#DCBE08">Yellow</option>
       <option value="#01050B">Black</option></select
-    ><br />
+    ><br>
 
-    <label>Choose color for Odd position</label><br />
+    <label>Choose color for Odd position</label><br>
     <select id="colorOdd">
       <option value="#056C5C">Teal</option>
       <option value="#62A2E9">Blue</option>
       <option value="#880A1B">Red</option>
     </select>
-    <br />
+    <br>
     <label>Choose symbol for Rhombus</label>
     <select id="symbol">
       <option value="$">$</option>
@@ -32,7 +36,7 @@
       <option value="%">%</option>
       <option value="#">#</option>
     </select>
-    <br />
+    <br>
     <button
       onclick="createRhombus(document.getElementById('rHeight').value,
     document.getElementById('colorEven').value,
@@ -46,4 +50,12 @@
 
     <script src="https://falllstreak.github.io/artifact03/JavaScript.jss"></script>
   </body>
+  <footer>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalllstreak.github.io%2Fartifact03%2Findex.html" 
+    target="_blank"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" 
+    width="165" 
+    height="64" 
+    alt="HTML5 Validated" 
+    title="HTML5 Validated"></a>
+  </footer>
 </html>
