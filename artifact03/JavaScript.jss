@@ -36,7 +36,7 @@ function down(pHeight, pColorEven, pColorOdd, pSymbol) {
   for (i = pHeight; i > 0; i--) {
     rLine += "<p>";
     //Create each line on the Rhombus
-    for (j = 0; j < i; j++) {
+    for (j = 0; j < i -1; j++) {
       //Is the position even or odd so we change the color
       if (j % 2)
         //even
