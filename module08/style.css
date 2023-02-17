@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
+.button-container-div {
+   padding: 1%;
+   text-align: center;
+}
 body {
   background-color: #000;
   font-family: 'Oswald', 'Futura', sans-serif;
