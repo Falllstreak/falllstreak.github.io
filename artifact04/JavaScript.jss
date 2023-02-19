@@ -1,40 +1,115 @@
 function validateForm() {
+  var errorMessages = ""; // create variable to store error messages
   var validFirstname = false;
-  //2) read value from HTML
-  var firstname = document.getElementById("firstname").value;
-  //3) Do validation
-  if (firstname === "null" || firstname === "" || firstname.length > 20)
-    errorMessages += "<p>The firstname is required and cannot be greater than 20 characters</p>";
-  else
+  var firstname = document.getElementsByName("firstname")[0].value; // read value from HTML
+  if (firstname === "" || firstname.length > 20) {
+    errorMessages +=
+      "<p>The firstname is required and cannot be greater than 20 characters</p>";
+  } else {
     validFirstname = true;
-  //4) Send error message to HTML
-  document.getElementById("errorMessages").innerHTML = errorMessages;
+  }
 
-  //5) return status of each field
-  return (validFirstname);
-} { //1) Create variable
   var validLastname = false;
-  //2) read value from HTML
-  var validLastname = document.getElementById("lastname").value;
+  var lastname = document.getElementsByName("LastName")[0].value;
+  if (lastname === "" || lastname.length > 20) {
+    errorMessages +=
+      "<p>The lastname is required and cannot be greater than 20 characters</p>";
+  } else {
+    validLastname = true;
+  }
 
-  //3) Do validation
-  //4) Send error message to HMTL
-  //5) return status of each field
-  return (validFirstname && validLastname);
-} {
-  var userEmail = document.getElementById("email").value;
+  var validEmail = false;
+  var userEmail = document.getElementsByName("Email")[0].value;
   var atpos = userEmail.indexOf("@");
   var dotpos = userEmail.lastIndexOf(".");
-  if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= userEmail.length)
-  // send error message. For example:  
-    errorMessages = "<p>Invalid email</p>";
-  else
-    validEmail = true
+  if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= userEmail.length) {
+    errorMessages += "<p>Invalid email</p>";
+  } else {
+    validEmail = true;
+  }
 
-} {
-  var phone = document.getElementById("phone").value;
-  if (isNaN(phone) || phone.lenght > 15 || phone === null || phone === "")
-    errorMessages = "<p>Invalid phone number </p>";
-  else
-    validPhone = true; //Or assign the value to a variable. For example validPhone = true;
+  var validPhone = false;
+  var phone = document.getElementsByName("Phone")[0].value;
+  if (phone === "" || isNaN(phone) || phone.length > 15) {
+    errorMessages += "<p>Invalid phone number</p>";
+  } else {
+    validPhone = true;
+  }
+
+  var validUsername = false;
+  var username = document.getElementsByName("username")[0].value;
+  if (username === "" || username.length > 12) {
+    errorMessages +=
+      "<p>The username is required and cannot be greater than 12 characters</p>";
+  } else {
+    validUsername = true;
+  }
+
+  var validPassword = false;
+  var password = document.getElementsByName("password")[0].value;
+  if (password === "" || password.length > 7) {
+    errorMessages +=
+      "<p>The password is required and cannot be greater than 7 characters</p>";
+  } else {
+    validPassword = true;
+  }
+
+  var validAddress = false;
+  var address = document.getElementsByName("address")[0].value;
+  if (address === "" || address.length > 50) {
+    errorMessages +=
+      "<p>The address is required and cannot be greater than 50 characters</p>";
+  } else {
+    validAddress = true;
+  }
+
+  var validCity = false;
+  var city = document.getElementsByName("city")[0].value;
+  if (city === "" || city.length > 35) {
+    errorMessages +=
+      "<p>The city is required and cannot be greater than 35 characters</p>";
+  } else {
+    validCity = true;
+  }
+
+  var validState = false;
+  var state = document.getElementsByName("state")[0].value;
+  if (state === "") {
+    errorMessages += "<p>A state must be selected</p>";
+  } else {
+    validState = true;
+  }
+
+  var validCountry = false;
+  var validZipcode = false;
+  var country = document.getElementsByName("country")[0].value;
+  var zipcode = document.getElementsByName("zipcode")[0].value;
+
+  if (country === "USA") {
+    validCountry = true;
+
+    if (zipcode === "" || zipcode.length < 5) {
+      errorMessages += "<p>A valid United States Zip Code must be entered</p>";
+    } else {
+      validZipcode = true;
+    }
+  } else {
+    errorMessages += "<p>A valid country must be selected</p>";
+  }
+
+  document.getElementById("errorMessages").innerHTML = errorMessages; // send error messages to HTML
+
+  return (
+    validFirstname &&
+    validLastname &&
+    validEmail &&
+    validPhone &&
+    validUsername &&
+    validPassword &&
+    validAddress &&
+    validCity &&
+    validState &&
+    validCountry &&
+    validZipcode
+  ); // return status of each field
 }
