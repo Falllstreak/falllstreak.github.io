@@ -1,11 +1,16 @@
 #errorMessages {
   color: red;
 }
-BODY,
-P,
-TD {
+body,
+p,
+form {
+  padding: 2px;
+  border-spacing: 2px;
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 10pt;
+}
+td {
+  text-align: right;
 }
 A {
   font-family: Arial, Verdana, Helvetica, sans-serif;
