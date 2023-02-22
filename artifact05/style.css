@@ -1,0 +1,18 @@
+#newImage {
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+}  
+body {
+    text-align: center;
+    color: #064C45;
+    height: 200px;
+    background: #0A2B2D;
+  }
+#fandb {
+  padding: 5px;
+}
+h1, h2 {
+  color: #9E9E9E;
+  text-shadow: 2px 2px 10px black;
+}
