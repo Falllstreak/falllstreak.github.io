@@ -2,17 +2,24 @@
   border-style: solid;
   border-width: 10px;
   border-color: black;
-}  
+}
+
 body {
-    text-align: center;
-    color: #064C45;
-    height: 200px;
-    background: #0A2B2D;
-  }
+  text-align: center;
+  color: #064C45;
+  background: rgb(19, 18, 18);
+  background: -moz-linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
+  background: linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#131212", endColorstr="#131212", GradientType=1);
+}
+
 #fandb {
   padding: 5px;
 }
-h1, h2 {
+
+h1,
+h2 {
   color: #9E9E9E;
   text-shadow: 2px 2px 10px black;
 }
