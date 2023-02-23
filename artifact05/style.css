@@ -10,7 +10,6 @@ body {
   background: -moz-linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
   background: linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#131212", endColorstr="#131212", GradientType=1);
 }
 #fandb {
   padding: 5px;
@@ -29,4 +28,7 @@ button {
   padding: 4px 28px;
 }
 button:hover {
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24), 0 10px 20px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24), 0 10px 20px 0 rgba(0, 0, 0, 0.24);}
+footer {
+  float: left;
+}
