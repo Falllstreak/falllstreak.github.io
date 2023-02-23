@@ -47,8 +47,8 @@ button:hover {
     0 10px 20px 0 rgba(0, 0, 0, 0.24);
 }
 footer {
-  position: fixed;
-  text-align: left;
+  position: relative;
+  text-align: right;
   bottom: 0;
   width: 100%;
 }
