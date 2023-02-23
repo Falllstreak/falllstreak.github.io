@@ -17,15 +17,15 @@ myImages = [
 
 myPhrases = [
 
-  "Blooming",
+  "Blooming Spring",
 
-  "Resting Snow",
+  "Branch Frost",
 
-  "Mountain Road",
+  "Peak Path",
 
-  "City Glow",
+  "City Sky",
 
-  "Focus"
+  "Focusing"
 ];
 
 window.setInterval(scrollPhoto, 4000);
