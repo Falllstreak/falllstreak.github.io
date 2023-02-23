@@ -1,10 +1,4 @@
-//Let's define our variables
-
-i = 0;
-
-myImages = [
-
-  "https://user-images.githubusercontent.com/121982351/220744728-0294e680-c0c3-4eff-a26b-c9d9ac5b8a06.jpeg",
+var myImages = ["https://user-images.githubusercontent.com/121982351/220744728-0294e680-c0c3-4eff-a26b-c9d9ac5b8a06.jpeg",
 
   "https://user-images.githubusercontent.com/121982351/220744508-69da9686-759f-4e5f-827a-ca5cc9c87754.jpeg",
 
@@ -15,9 +9,8 @@ myImages = [
   "https://user-images.githubusercontent.com/121982351/220743867-0d400e77-d44b-45e4-85e9-f66f30fedb87.jpeg"
 ];
 
-myPhrases = [
 
-  "Spring Bloom",
+var captionImages = ["Spring Bloom",
 
   "Branch Frost",
 
@@ -28,53 +21,44 @@ myPhrases = [
   "Focusing"
 ];
 
-window.setInterval(scrollPhoto, 4000);
+var i = 0;
 
-
-// Let us define a function that will show the phrases based on the selection of the user
-
-function scrollPhoto() {
-   if (document.getElementById("Phrases"))
-    {
-   
-    
-    if (i < myPhrases.length)
-    {  document.getElementById("Phrases").innerHTML = "<h2>" + myPhrases[i] + "</h2>";
-
-document.getElementById("newImage").src = myImages[i];
-     i++;}
-    else
-     i=0;
-  }
-    else
-      document.getElementById("Phrases").innerHTML ="";
-  }
-
-
-document.getElementById("nextButton").onclick = function(nextButton){
-
-         if(i == myPhrases.length-1) 
-         {i=0;}
-         else
-         {i=i+1;}
-
-       document.getElementById("Phrases").innerHTML = "<h2>" + myPhrases[i] + "</h2>";
-
-document.getElementById("newImage").src = myImages[i];
-       }
-
-document.getElementById("previousButton").onclick = function(previousButton){
-
-     if(i === 0)
-     {i=myPhrases.length-1;}
-    else
-    {
-        i=i-1;
-    }
-
-
-       document.getElementById("Phrases").innerHTML = "<h2>" + myPhrases[i] + "</h2>";
-
-document.getElementById("newImage").src = myImages[i];
-
+function updateImage() {
+  document.getElementById("slideshow").src = myImages[i];
+  document.getElementById("slideshow").alt = captionImages[i];
+  document.getElementById("caption").textContent = captionImages[i];
 }
+
+function next() {
+  if (myImages.length == i + 1) {
+    i = 0;
+  } else {
+    i = i + 1;
+  }
+  updateImage();
+}
+
+
+function back() {
+  if (i === 0)
+    i = myImages.length - 1;
+  else {
+    i = i - 1;
+  }
+
+  updateImage();
+}
+
+var nextButton = document.getElementById("next");
+var previousButton = document.getElementById("previous");
+
+previousButton.addEventListener("click", back, false);
+nextButton.addEventListener("click", next, false);
+
+function autoSlide() {
+  if (document.getElementById("auto"))
+    next();
+}
+
+
+setInterval(autoSlide, 8000); // Next
