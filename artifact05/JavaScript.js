@@ -17,7 +17,7 @@ myImages = [
 
 myPhrases = [
 
-  "Blooming Spring",
+  "Spring Bloom",
 
   "Branch Frost",
 
