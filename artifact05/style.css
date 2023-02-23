@@ -5,11 +5,26 @@
 }
 body {
   text-align: center;
-  color: #064C45;
+  color: #064c45;
   background: rgb(19, 18, 18);
-  background: -moz-linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
-  background: linear-gradient(90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 1) 0%,
+    rgba(10, 43, 45, 1) 50%,
+    rgba(19, 18, 18, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 1) 0%,
+    rgba(10, 43, 45, 1) 50%,
+    rgba(19, 18, 18, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 1) 0%,
+    rgba(10, 43, 45, 1) 50%,
+    rgba(19, 18, 18, 1) 100%
+  );
 }
 #fandb {
   padding: 5px;
@@ -28,7 +43,12 @@ button {
   padding: 4px 28px;
 }
 button:hover {
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24), 0 10px 20px 0 rgba(0, 0, 0, 0.24);}
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24),
+    0 10px 20px 0 rgba(0, 0, 0, 0.24);
+}
 footer {
-  float: left;
+  position: fixed;
+  text-align: left;
+  bottom: 0;
+  width: 100%;
 }
