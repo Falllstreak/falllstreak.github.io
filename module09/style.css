@@ -43,11 +43,11 @@ label, select {
   color: black;
   border: 2px solid black;
   padding: 4px;
-  float: relative;
 }
 footer {
-  position: relative;
+  position:fixed;
+  bottom:0px;
+  left:50%;
   text-align: center;
-  bottom: 0;
   width: 100%;
 }
