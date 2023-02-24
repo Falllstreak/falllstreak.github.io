@@ -3,18 +3,6 @@ body {
   text-align: center;
   color: #064c45;
   background: rgb(19, 18, 18);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(19, 18, 18, 1) 0%,
-    rgba(10, 43, 45, 1) 50%,
-    rgba(19, 18, 18, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(19, 18, 18, 1) 0%,
-    rgba(10, 43, 45, 1) 50%,
-    rgba(19, 18, 18, 1) 100%
-  );
   background: linear-gradient(
     90deg,
     rgba(19, 18, 18, 1) 0%,
@@ -24,7 +12,6 @@ body {
 }
 h1,
 h2 {
-  font-family: 'SteelfishRegular';
   font-weight: normal;
   font-style: normal;
   letter-spacing: 4px;
@@ -57,4 +44,10 @@ label, select {
   border: 2px solid black;
   padding: 4px;
   float: relative;
+}
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
