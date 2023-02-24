@@ -30,12 +30,12 @@ button:hover {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24),
     0 10px 20px 0 rgba(0, 0, 0, 0.24);
 }
-  .dot {
+.dot {
     height: 8px; width: 8px;
     border-radius: 4px; /* rounds corners */
     background: #f44336;
     position: absolute;
-  }
+}
 label, select {
   margin: 6px;
   font-size: 16px;
@@ -47,5 +47,5 @@ label, select {
 footer {
   position:fixed;
   bottom:0px;
-  left:44%;
+  left:45%;
 }
