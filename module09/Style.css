@@ -1,0 +1,60 @@
+body {
+  height: 200px;
+  text-align: center;
+  color: #064c45;
+  background: rgb(19, 18, 18);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 1) 0%,
+    rgba(10, 43, 45, 1) 50%,
+    rgba(19, 18, 18, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 1) 0%,
+    rgba(10, 43, 45, 1) 50%,
+    rgba(19, 18, 18, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 1) 0%,
+    rgba(10, 43, 45, 1) 50%,
+    rgba(19, 18, 18, 1) 100%
+  );
+}
+h1,
+h2 {
+  font-family: 'SteelfishRegular';
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 4px;
+  color: #f44336;
+  text-shadow: 2px 2px 10px black;
+}
+button {
+  font-size: 16px;
+  background-color: #f44336;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 4px 28px;
+}
+button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24),
+    0 10px 20px 0 rgba(0, 0, 0, 0.24);
+}
+  .dot {
+    height: 8px; width: 8px;
+    border-radius: 4px; /* rounds corners */
+    background: #f44336;
+    position: absolute;
+  }
+label, select {
+  margin: 6px;
+  font-size: 16px;
+  background-color: #064c45;
+  color: black;
+  border: 2px solid black;
+  padding: 4px;
+  float: relative;
+}
