@@ -3,8 +3,9 @@ function validateForm() {
   var errorMessages = ""; // create variable to store error messages
   var validFirstname = false;
   var firstname = document.getElementsByName("firstname")[0].value; // read value from HTML
-  if (firstname === "" || firstname.length > 20) {
-    errorMessages += "<p>The firstname is required and cannot be greater than 20 characters</p>";
+  var letters = /^[A-Za-z]+$/;
+  if (firstname === "" || firstname.length > 20 || !firstname.match(letters)) {
+    errorMessages += "<p>The firstname is required, cannot be greater than 20 characters, and can only contain alphabet letters</p>";
   } else {
     validFirstname = true;
   }
