@@ -38,25 +38,31 @@ form {
         color: #FEF1E9;
         background-color: #2A3B4F;
         padding: 0.5em 0;
-        position: absolute;
+        position: relative;
   bottom: 0;
   width: 100%;
 }
 .column1 {
+        color: #ffffff;
+  text-shadow: 1px 2px 4px #000000;
         background-color: #90B5AF;
   	width: 31.3%;
 	float: left;
         margin: 1%}
 .column2 {
+        color: #ffffff;
+  text-shadow: 1px 2px 4px #000000;
         background-color: #C1908D;
   	width: 31.3%;
 	float: left;
         margin: 1%}
 .column3 {
+  color: #ffffff;
+  text-shadow: 1px 2px 4px #000000;
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-        margin-right: 0%;
+        margin-right: 1%;
         background-color: #A28D7C;}
 a {
         color: #FEF1E9;}
@@ -68,9 +74,9 @@ li {
 	height: 10em;
 	margin-bottom: 1em;}
 .layout {
-  background-color: #8eb8fa;
+  background-color: #F4BC53;
   border-style: solid;
-  height: 2000px;
+  height: 700px;
   width: 100%;
   display: grid;
   grid-template-rows: repeat(auto-fill, 1fr);
@@ -81,7 +87,7 @@ li {
 
 .httpval {
   border-style: solid;
-  background-color: #fcf4c2;
+  background-color: #90B5AF;
   float: left;
   width: 45%;
   margin: 1%;;
@@ -91,7 +97,7 @@ li {
 .cssval {
   border-style: solid;
   border-color: black;
-  background-color: #f4c2fc;
+  background-color: #90B5AF;
   width: 45%;
   float: right;
   	margin: 1%;
