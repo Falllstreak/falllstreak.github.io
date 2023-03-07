@@ -2,6 +2,11 @@
   font-family: Arial, Verdana, sans-serif;
   text-align: center;
 }
+#errorMessages {
+  color: red;
+  text-shadow: 1px 2px 4px #000000;
+  text-align: left;
+}
 h1 {
   color: #ffff;
   font-family: 'DecovarRegular24TermB';
@@ -112,4 +117,9 @@ li {
   float: right;
   margin: 1%;
   padding: 10px;
+}
+.error_strings {
+  font-family: Verdana;
+  font-size: 10px;
+  color: #660000;
 }
