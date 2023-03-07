@@ -24,6 +24,7 @@ final<!DOCTYPE html>
 		<div id="content">
 			<div id="feature">
 				<p>Here are a few films I recommend:</p>
+				<p><img  src="https://user-images.githubusercontent.com/121982351/223296948-a4193004-adbb-46a3-a051-3c625885c564.png"  alt="Tree from the film Mandy"></p>
 			</div>
 			<div class="article column1">
 				<p>Mandy</p>
