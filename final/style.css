@@ -3,8 +3,6 @@
   text-align: center;
 }
 #errorMessages {
-  background-color: #181818;
-  opacity: .9;
   color: red;
   text-shadow: 1px 2px 4px #000000;
 }
@@ -25,6 +23,7 @@ body {
 }
 #nav {
   background-color: #F37F5A;
+  opacity: .9;
   margin: 1%;
   padding: 0.5em 0;
   overflow: auto;
@@ -34,12 +33,13 @@ form {
   opacity: .9;
   margin-top: 0.5em;
   margin: 0 auto;
-  max-width: 600px;  
+  max-width: 600px;
 }
 #feature {
   color: white;
   text-shadow: 1px 2px 4px #000000;
   background-color: #F4BC53;
+  
   background-image: url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
   background-size: contain;
   background-position: right;
@@ -51,6 +51,7 @@ form {
 #footer {
   color: #FEF1E9;
   background-color: #2A3B4F;
+  opacity: .9;
   padding: 0.5em 0;
   position: relative;
   text-align: right;
@@ -60,7 +61,7 @@ form {
 .column1 {
   color: #ffffff;
   text-shadow: 1px 2px 4px #000000;
-  background-color: #90B5AF;
+  background-color: #A28D7C;
   width: 31.3%;
   float: left;
   margin: 1%
@@ -68,7 +69,7 @@ form {
 .column2 {
   color: #ffffff;
   text-shadow: 1px 2px 4px #000000;
-  background-color: #C1908D;
+  background-color: #A28D7C;
   width: 31.3%;
   float: left;
   margin: 1%
@@ -97,16 +98,14 @@ li {
 .layout {
   background-color: #F4BC53;
   border-style: solid;
-  height: 700px;
+  height: 760px;
   width: 100%;
   display: grid;
   grid-template-rows: repeat(auto-fill, 1fr);
   grid-template-columns: 1fr;
-  gap: 10px;
 }
 .httpval {
-  border-style: solid;
-  background-color: #90B5AF;
+  background-color: black;
   float: left;
   width: 45%;
   margin: 1%;
@@ -114,9 +113,8 @@ li {
   padding: 10px;
 }
 .cssval {
-  border-style: solid;
   border-color: black;
-  background-color: #90B5AF;
+  background-color: black;
   width: 45%;
   float: right;
   margin: 1%;
