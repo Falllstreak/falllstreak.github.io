@@ -115,13 +115,25 @@ li {
   grid-template-rows: repeat(auto-fill, 1fr);
   grid-template-columns: 1fr;
 }
-.trailers {
+.rec {
   background-color: #F4BC53;
   font-family: 'RobotoRegular';
   font-weight: lighter;
   font-style: normal;
   padding: 1em;
-  margin: 1em;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.trailers {
+  background-color: #F4BC53;
+  font-family: 'RobotoRegular';
+  font-weight: lighter;
+  font-style: normal;
+  margin: auto;
+  margin-top: 1em;
+  width: 60%;
+  padding: 10px;
 }
 .filmlist {
   color: black;
@@ -134,8 +146,10 @@ li {
   font-family: 'RobotoRegular';
   font-weight: lighter;
   font-style: normal;
-  padding: 1em;
-  margin: 1em;
+  margin: auto;
+  margin-top: 1em;
+  width: 90%;
+  padding: 1px;
   height: 55em;
 }
 .httpval {
