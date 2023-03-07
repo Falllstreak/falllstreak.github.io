@@ -2,6 +2,10 @@
   font-family: Arial, Verdana, sans-serif;
   text-align: center;
 }
+p {
+  width: 85%;
+  text-align: center;
+}
 #errorMessages {
   font-family: 'RobotoRegular';
   color: red;
@@ -25,9 +29,11 @@ body {
   background-image: url("https://user-images.githubusercontent.com/121982351/223234200-898e3679-e8f4-4c1e-aba7-a82dd9d5c0ec.jpg");
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 #content {
   overflow: auto;
+  text-align: center;
 }
 #nav {
   background-color: #F37F5A;
@@ -54,6 +60,7 @@ form {
   height: 12em;
   margin-bottom: 1em;
   margin: 1%;
+  text-align: center;
 }
 #footer {
   color: #FEF1E9;
@@ -61,7 +68,7 @@ form {
   opacity: .9;
   padding: 0.5em 0;
   position: relative;
-  text-align: right;
+  text-align: center;
   margin-top: 0.5em;
   width: 100%;
 }
