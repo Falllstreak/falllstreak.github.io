@@ -5,7 +5,6 @@
 #errorMessages {
   color: red;
   text-shadow: 1px 2px 4px #000000;
-  text-align: left;
 }
 h1 {
   color: #ffff;
@@ -31,6 +30,9 @@ body {
 form {
   background-color: #F3EEC3;
   opacity: .9;
+  margin-top: 0.5em;
+  margin: 0 auto;
+  max-width: 600px;  
 }
 #feature {
   color: white;
