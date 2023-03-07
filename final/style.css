@@ -142,13 +142,14 @@ li {
   margin: 1%
 }
 .stills {
-  background-color: #F4BC53;
+  background-color: black;
   font-family: 'RobotoRegular';
   font-weight: lighter;
   font-style: normal;
+  color: white;
   margin: auto;
   margin-top: 1em;
-  width: 90%;
+  width: 70%;
   padding: 1px;
   height: 55em;
 }
