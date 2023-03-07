@@ -2,9 +2,9 @@ function validateForm() {
   var errorMessages = ""; // create variable to store error messages
   var validFullname = false;
   var fullname = document.getElementsByName("fullname")[0].value; // read value from HTML
-  var letters = /^[A-Za-z]+$/;
-  if (fullname === "" || fullname.length > 70 || !fullname.match(letters)) {
-    errorMessages += "<p>Name is required, cannot be greater than 70 characters, and can only contain alphabet letters</p>";
+  var letters = /^[A-Za-z\s]+$/; // allow spaces in fullname
+  if (fullname.trim() === "" || fullname.length > 70 || !fullname.match(letters)) {
+    errorMessages += "<p>Name is required, cannot be greater than 70 characters, and can only contain alphabet letters and spaces</p>";
   } else {
     validFullname = true;
   }
