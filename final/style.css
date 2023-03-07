@@ -3,6 +3,7 @@
   text-align: center;
 }
 #errorMessages {
+  font-family: 'RobotoRegular';
   color: red;
   text-shadow: 1px 2px 4px #000000;
 }
@@ -12,6 +13,13 @@ h1 {
   font-weight: normal;
   font-style: normal;
   text-shadow: 1px 2px 4px black;
+}
+h2,
+h3 {
+  font-family: 'RobotoRegular';
+  font-weight: lighter;
+  font-style: normal;
+  text-shadow: 1px 2px 15px black;
 }
 body {
   background-image: url("https://user-images.githubusercontent.com/121982351/223234200-898e3679-e8f4-4c1e-aba7-a82dd9d5c0ec.jpg");
@@ -39,7 +47,6 @@ form {
   color: white;
   text-shadow: 1px 2px 4px #000000;
   background-color: #F4BC53;
-  
   background-image: url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
   background-size: contain;
   background-position: right;
@@ -90,6 +97,10 @@ li {
   color: #28190C;
   display: inline;
   padding: 0.5em;
+  font-family: 'RobotoRegular';
+  font-weight: lighter;
+  font-style: normal;
+  text-shadow: 1px 2px 15px black;
 }
 .article {
   height: 10em;
@@ -98,11 +109,34 @@ li {
 .layout {
   background-color: #F4BC53;
   border-style: solid;
-  height: 800px;
+  height: 900px;
   width: 100%;
   display: grid;
   grid-template-rows: repeat(auto-fill, 1fr);
   grid-template-columns: 1fr;
+}
+.trailers {
+  background-color: #F4BC53;
+  font-family: 'RobotoRegular';
+  font-weight: lighter;
+  font-style: normal;
+  padding: 1em;
+  margin: 1em;
+}
+.filmlist {
+  color: black;
+  text-align: left;
+  padding: 5em;
+  margin: 1%
+}
+.stills {
+  background-color: #F4BC53;
+  font-family: 'RobotoRegular';
+  font-weight: lighter;
+  font-style: normal;
+  padding: 1em;
+  margin: 1em;
+  height: 55em;
 }
 .httpval {
   background-color: black;
@@ -113,7 +147,6 @@ li {
   padding: 10px;
 }
 .cssval {
-  border-color: black;
   background-color: black;
   width: 45%;
   float: right;
@@ -124,4 +157,8 @@ li {
   font-family: Verdana;
   font-size: 10px;
   color: #660000;
+}
+iframe {
+  border-style: solid;
+  border-color: black;
 }
