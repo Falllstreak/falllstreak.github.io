@@ -98,7 +98,7 @@ li {
 .layout {
   background-color: #F4BC53;
   border-style: solid;
-  height: 775px;
+  height: 800px;
   width: 100%;
   display: grid;
   grid-template-rows: repeat(auto-fill, 1fr);
