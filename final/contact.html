@@ -32,39 +32,40 @@
     </div>
   </div>
   <form action="/final/thankyou.html" onsubmit="return validateForm();">
-    <table>
-      <tr>
-        <td>Name</td>
-        <td>
-          <input type="text" name="fullname">
-        </td>
-      </tr>
-      <tr>
-        <td>Email</td>
-        <td>
-          <input type="text" name="email">
-        </td>
-      </tr>
-      <tr>
-        <td>Comments</td>
-        <td>
-          <textarea cols="20" rows="5" name="comments"></textarea>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <div id="myform_errorloc" class="error_strings"></div>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <input type="submit" value="Submit">
-        </td>
-      </tr>
-    </table>
-  </form>
+  <table>
+    <tr>
+      <td><label for="fullname">Name</label></td>
+      <td>
+        <input type="text" name="fullname" id="fullname">
+      </td>
+    </tr>
+    <tr>
+      <td><label for="email">Email</label></td>
+      <td>
+        <input type="text" name="email" id="email">
+      </td>
+    </tr>
+    <tr>
+      <td><label for="comments">Comments</label></td>
+      <td>
+        <textarea cols="20" rows="5" name="comments" id="comments"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <div id="myform_errorloc" class="error_strings"></div>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" value="Submit">
+      </td>
+    </tr>
+  </table>
+</form>
+
   <div id="errorMessages" role="region" aria-label="Error Messages"></div>
   <div id="footer" role="region" aria-label="Footer">
     <section>&copy; Copyright 2023</section>
