@@ -5,6 +5,7 @@
 p {
   width: 85%;
   text-align: center;
+  line-height: 1.5;
 }
 #errorMessages {
   font-family: 'RobotoRegular';
