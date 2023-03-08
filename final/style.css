@@ -68,11 +68,11 @@ form {
   background-color: #2A3B4F;
   opacity: .9;
   padding: 1em 0;
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   text-align: center;
   margin-top: 0.5em;
   width: 100%;
-  
 }
 .column1 {
   color: #ffffff;
