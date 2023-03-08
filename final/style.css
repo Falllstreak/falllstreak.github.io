@@ -63,14 +63,16 @@ form {
   text-align: center;
 }
 #footer {
+  bottom: 0;
   color: #FEF1E9;
   background-color: #2A3B4F;
   opacity: .9;
   padding: 1em 0;
-  position: relative;
+  position: absolute;
   text-align: center;
   margin-top: 0.5em;
   width: 100%;
+  
 }
 .column1 {
   color: #ffffff;
