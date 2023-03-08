@@ -65,7 +65,7 @@ form {
 #footer {
   bottom: 0;
   color: #FEF1E9;
-  background-color: #2A3B4F;
+  text-shadow: 1px 2px 4px black;
   opacity: .9;
   padding: 1em 0;
   position: -webkit-sticky;
@@ -73,6 +73,7 @@ form {
   text-align: center;
   margin-top: 0.5em;
   width: 100%;
+  padding-top:50em;
 }
 .column1 {
   color: #ffffff;
